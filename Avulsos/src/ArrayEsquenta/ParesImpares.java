@@ -12,7 +12,7 @@ public class ParesImpares {
         int par = 0;
         int impar = 0;
 
-        for ( int i = 0; i < 7; i++ ) {
+        for ( int i = 0; i < entrada.length; i++ ) {
            if ( entrada[i] % 2 == 0 ) {
                par++;
            }else {
@@ -24,7 +24,7 @@ public class ParesImpares {
         int p = 0;
         int im = 0;
 
-        for ( int i = 0; i < 7; i++ ) {
+        for ( int i = 0; i < entrada.length; i++ ) {
             if ( entrada[i] % 2 == 0 ) {
                 ArrayPar[p] = entrada[i];
                 p++;

@@ -1,5 +1,6 @@
 package ArrayEsquenta;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Inverte {
@@ -10,8 +11,8 @@ public class Inverte {
 
         int [] saida = new int[5];
 
-        for ( int i = 0; i < 5; i++ ) {
-            saida [i] = entrada[5-i-1];
+        for ( int i = 0; i < entrada.length; i++ ) {
+            saida [i] = entrada[entrada.length-i-1];
             System.out.println( saida[i] );
         }
     }
